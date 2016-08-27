@@ -1,0 +1,25 @@
+The biggest problem with this method is that we choosed the weights pretty much arbitrarily. They might work well or they might not, but we don’t really know whether there are better values for them.
+
+A rule-based script would be a complete dead end. My strategy is simply to try every combination of the current piece on the game
+board and use the one that produces the highest utility. The utility would be calculated by combining some weighted heuristics. 
+The heuristics would include things such as stacking blocks too high, -50 utility; left a gap in blocks, -10 utility; 
+cleared a row, +90 utility.
+
+What can we do about it? We could brute force it — but with solutions that range across a continuum, there is a better way — a genetic algorithm.
+
+A genetic algorithm is just a searching heuristic; it derives its ideas from evolution, where nature creates complex and sophisticated organisms by making random changes to the DNA.
+
+Charles Darwin specifies four criteria for the process of natural selection to occur:
+
+    Variation: Organisms in a population must be slightly different from one another.
+    Inheritance: Traits of parent organisms must be passed onto their offspring.
+    Limited space: Only some of the offspring in any generation is able to survive and pass on its genes.
+    Competition: Individuals that are more fit are more likely to pass on their genes to the next generation.
+
+
+
+If any problem , modification or suggestion is there regarding the game mail me at gauravsinha952@gmail.com
+
+In later releases the exe version of the game would be available on the link- https://drive.google.com/open?id=0B0NUZ7x5el0vcmdCb1pKZ0N1Nms
+
+Thanks.
