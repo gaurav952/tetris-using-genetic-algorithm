@@ -29,7 +29,7 @@ class AI(object):
 		return y - 1
 
 	@staticmethod
-	def max_x_pos_for_stone(stone):
+	max_x_pos_for_stone(stone):
 		"""The furthest position you can move stone to the right"""
 		return COLS - len(stone[0])
 
